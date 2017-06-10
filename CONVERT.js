@@ -24,13 +24,8 @@
 		for(var i=0; i<cnt; ++i){
 			var data = input[i].split(' ');
 			var unit = data[1];
-			var result = (i+1) + ' '  + fx[unit][0]*data[0] + ' ' + fx[unit][1];
+			var result = (i+1) + ' '  + (fx[unit][0]*data[0]).toFixed(4) + ' ' + fx[unit][1];
 			console.log(result);
 		}
 	});
-
-
-
-
-
 })();
