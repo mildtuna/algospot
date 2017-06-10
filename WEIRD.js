@@ -18,7 +18,7 @@
 		var is_not_weird;
 		var delta;
 
-		console.time('weird...');
+		//console.time('weird...');
 		for(var i in input){
 
 			var num = parseInt(input[i]);
@@ -51,7 +51,7 @@
 				console.log('weird');
 
 		}
-		console.timeEnd('weird...');
+		//console.timeEnd('weird...');
 
 		function check(arr, acc){
 
