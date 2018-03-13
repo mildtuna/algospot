@@ -1,5 +1,4 @@
 (function(){
-
 	var input = [];
 	var readline = require('readline');
 	var rl = readline.createInterface({
